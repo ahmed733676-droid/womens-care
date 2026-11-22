@@ -17,7 +17,7 @@
     header.brand .pub { margin: 0.2rem 0 0; color: #6B5A61; }
     nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; margin: 0.8rem 0 1.25rem; }
     nav a, a { color: #7D1638; font-weight: 600; }
-    a[href^="mailto:"] { overflow-wrap: anywhere; word-break: break-word; }
+    a[href^="mailto:"] { white-space: nowrap; }
     h1 { font-size: 1.7rem; line-height: 1.3; margin: 0 0 0.4rem; }
     h2 { font-size: 1.15rem; margin: 1.4rem 0 0.35rem; }
     p, li { font-size: 1.02rem; }
@@ -39,6 +39,7 @@
       <a href="#rights">حقوقكِ</a>
       <a href="support.html">الدعم</a>
       <a href="delete-account.html">حذف الحساب</a>
+      <a href="terms.html">الشروط</a>
     </nav>
 
     <section id="ar" lang="ar" dir="rtl">
@@ -50,23 +51,23 @@
         <p>الناشر: Corniche Studio</p>
         <p>للتواصل: <a href="mailto:chief-ahmed@mail.grokbot.com">chief-ahmed@mail.grokbot.com</a></p>
         <p>هذا الإخطار وفق قانون حماية البيانات الشخصية رقم ١٥١ لسنة ٢٠٢٠. ناشر التطبيق هو المتحكّم في البيانات. راعي القناة ليس المتحكّم.</p>
-        <p>هذا التطبيق برعاية قناة د. وفاء فاضل على يوتيوب، وليس تابعًا لعيادتها.</p>
+        <p>صُنع بمحتوى من قناة د. وفاء فاضل على يوتيوب، وليس تابعًا لعيادتها.</p>
       </div>
       <h2 id="leave">ما الذي يغادر الجهاز</h2>
       <p>تسجيل الدخول يرسل اسمكِ وبريدكِ ومعرّف الحساب. حذف الحساب قد يرسل البريد نفسه. تقارير الأعطال الاختيارية تغادر الجهاز فقط إذا فعّلتِها. ملاحظات الدورة والحمل تبقى على هذا الجهاز.</p>
-      <h2>قراءة الإعدادات العامة</h2>
-      <p>عند فتح التطبيق قد يقرأ صف إعدادات عامًا ليعرف الميزات المفعّلة. هذه القراءة لا ترسل اسمكِ أو بريدكِ أو ملاحظات دورتكِ. تحدث للزائرة وللحساب الذي سجّل الدخول.</p>
+      <h2>إعدادات الميزات</h2>
+      <p>إعدادات الميزات: عند فتح التطبيق يتحقق من الميزات المفعّلة. لا يُرسل شيء عنكِ.</p>
       <h2>ما الذي يبقى على الجهاز</h2>
       <p>سجل الدورة وملاحظات الحمل والركلات والانقباضات وحقيبة المستشفى تبقى في التخزين الخاص بالهاتف أو التخزين الخاص بالمتصفح. تسجيل اليوم وقائمة أسماء المواليد وأصوات التصويت تُحفظ على هذا الجهاز. بطاقة الحساب (الاسم والبريد والهاتف) تبقى على الجهاز في تخزين التطبيق. لقطة الواجهة على الشاشة الرئيسية، إن أضفتِها، تُحفظ في تخزين الواجهة حتى ترسم. لا تُزامَن هذه البيانات.</p>
       <h2>البيانات الصحية</h2>
-      <p>سجل الدورة وأسبوع الحمل والركلات والملاحظات ذات الصلة تبقى على هذا الجهاز. لا تُرسل إلى الإعلانات أو التحليلات أو تقارير الأعطال. البيانات لا تُباع. حذف الحساب يمسح الاسم والبريد وسجل الدورة المحفوظ على هذا الجهاز وملاحظات الحمل والركلات والانقباضات والحقيبة، ويمسح تسجيل اليوم وقائمة أسماء المواليد وأصوات التصويت على هذا الجهاز.</p>
+      <p>سجل الدورة وأسبوع الحمل والركلات والملاحظات ذات الصلة تبقى على هذا الجهاز. لا تُرسل إلى الإعلانات أو التحليلات أو تقارير الأعطال. البيانات لا تُباع. حذف الحساب يمسح الاسم والبريد وسجل الدورة المحفوظ على هذا الجهاز وملاحظات الحمل والركلات والانقباضات والحقيبة، ويمسح تسجيل اليوم وقائمة أسماء المواليد وأصوات التصويت على هذا الجهاز. يُحفظ معرّف عشوائي للتطبيق على هذا الهاتف، وهو غير مرتبط بكِ.</p>
       <h2>كم نُبقي البيانات</h2>
       <p>ملاحظات الدورة والحمل تبقى على هذا الجهاز حتى تحذفيها أو تحذفي الحساب. اسمكِ وبريدكِ يبقيان لدى الناشر حتى تحذفي الحساب. إذا فعّلتِ تقارير الأعطال، تُبقيها تلك الخدمة وفق جدولها، ولا تُربط باسمكِ. رمز الإشعار يبقى فقط ما دامت الإشعارات مفعّلة. لا نحتفظ بنسخة من دورتكِ على خوادمنا.</p>
       <h2 id="rights">حقوقكِ وفق القانون ١٥١ لسنة ٢٠٢٠</h2>
-      <p>وفق القانون ١٥١ لسنة ٢٠٢٠ يمكنكِ طلب الاطلاع على بياناتكِ الشخصية أو تصحيحها أو حذفها أو الاعتراض على استخدام لها. في التطبيق: الحساب، ثم حذف الحساب. أو راسلي <a href="mailto:chief-ahmed@mail.grokbot.com">chief-ahmed@mail.grokbot.com</a> بعنوان: صحة المرأة — طلب بيانات. نرد خلال ٣٠ يومًا. صفحة <a href="delete-account.html">حذف الحساب</a> تشرح الخطوات نفسها.</p>
+      <p>وفق القانون ١٥١ لسنة ٢٠٢٠ يمكنكِ طلب الاطلاع على بياناتكِ الشخصية أو تصحيحها أو حذفها أو الاعتراض على استخدام لها. في التطبيق: الحساب، ثم حذف الحساب. أو راسلي <a href="mailto:chief-ahmed@mail.grokbot.com">chief-ahmed@mail.grokbot.com</a> بعنوان: صحة المرأة — طلب بيانات. نرد خلال ٣٠ يومًا. يمكنكِ أيضًا تقديم شكوى إلى مركز حماية البيانات الشخصية في مصر بعد التواصل معنا. صفحة <a href="delete-account.html">حذف الحساب</a> تشرح الخطوات نفسها.</p>
       <h2>البيانات خارج مصر</h2>
       <p>تسجيل الدخول يتم عبر Supabase، وقد يُحفظ الحساب خارج مصر. إذا فعّلتِ تقارير الأعطال، فقد تعالجها Sentry خارج مصر. إذا فعّلتِ الإشعارات، فقد يعالج Expo رمز الإشعار خارج مصر. ملاحظات الدورة والحمل لا تُرسل إلى هذه الخدمات.</p>
-      <h2>رمز الإشعار</h2>
+      <h2>معرّف الإشعار</h2>
       <p>إذا فعّلتِ الإشعارات، قد يغادر رمز إشعار الجهاز حتى يصل التذكير. الرمز ليس اسمكِ وليس دورتكِ.</p>
       <h2>يوتيوب وبلاغات الأعطال والحذف</h2>
       <p>عناوين الفيديو تأتي من القناة العامة، والتشغيل يفتح يوتيوب. التطبيق لا يطلب الكاميرا أو الميكروفون أو مكتبة الصور. تقارير الأعطال تبقى مغلقة حتى تفعّليها من الحساب. التحليلات مغلقة. احذفي الحساب من الحساب، أو من صفحة <a href="delete-account.html">حذف الحساب</a>.</p>
@@ -81,23 +82,23 @@
         <p>Publisher: Corniche Studio</p>
         <p>Contact: <a href="mailto:chief-ahmed@mail.grokbot.com">chief-ahmed@mail.grokbot.com</a></p>
         <p>This notice is given under Egypt Law 151/2020 on the Protection of Personal Data. The app publisher is the data controller. A channel sponsor is not the controller.</p>
-        <p>This app is sponsored by Dr. Wafaa Fadel's YouTube channel. It is not her clinic.</p>
+        <p>Made with content from Dr. Wafaa Fadel's YouTube channel. It is not her clinic.</p>
       </div>
       <h2 id="leaves">What leaves the device</h2>
       <p>Sign-in sends your name, email, and account ID. Delete account can send the same email. Optional crash reports leave the device only if you turn them on. Cycle and pregnancy notes stay on this device.</p>
-      <h2>Public settings read</h2>
-      <p>When the app opens, it may read a public settings row so it knows which features are on. This read does not send your name, email, or cycle notes. It happens for a guest and for a signed-in account.</p>
+      <h2>Feature settings</h2>
+      <p>Feature settings: when the app opens it checks which features are on. Nothing about you is sent.</p>
       <h2>What stays on the device</h2>
       <p>Cycle logs and pregnancy notes, kicks, contractions, and the hospital bag stay in the phone's private storage or the browser's private storage. The daily check-in, the baby-name list, and the name votes are stored on this device. The account card (name, email, phone) stays on this device in the app's own storage. The home-screen widget snapshot, if you add it, is stored in the widget's own storage so the widget can draw. None of this is synced.</p>
       <h2>Health notes</h2>
-      <p>Cycle logs, pregnancy week, kicks, and related notes stay on this device. They are never sent to ads, analytics, or crash reports. Data is not sold. Delete account wipes the signed-in name and email, the cycle record saved on this device, pregnancy notes, kicks, contractions, and the bag, and the daily check-in, the baby-name list, and the name votes on this device.</p>
+      <p>Cycle logs, pregnancy week, kicks, and related notes stay on this device. They are never sent to ads, analytics, or crash reports. Data is not sold. Delete account wipes the signed-in name and email, the cycle record saved on this device, pregnancy notes, kicks, contractions, and the bag, and the daily check-in, the baby-name list, and the name votes on this device. A random app ID on this phone is kept; it is not linked to you.</p>
       <h2>How long we keep data</h2>
       <p>Cycle and pregnancy notes stay on this device until you delete them or delete the account. Your name and email stay with the publisher until you delete the account. If you turn crash reports on, that service keeps them on its own schedule, and they are not linked to your name. A push token stays only while notifications are on. We do not keep a copy of your cycle on our servers.</p>
       <h2 id="rights-en">Your rights under Law 151/2020</h2>
-      <p>Under Egypt Law 151/2020 you can ask to see your personal data, correct it, delete it, or object to a use of it. In the app, open Account, then Delete account. Or email <a href="mailto:chief-ahmed@mail.grokbot.com">chief-ahmed@mail.grokbot.com</a> with the subject Women's Care — data request. We reply within 30 days. The <a href="delete-account.html">Delete account</a> page explains the same steps.</p>
+      <p>Under Egypt Law 151/2020 you can ask to see your personal data, correct it, delete it, or object to a use of it. In the app, open Account, then Delete account. Or email <a href="mailto:chief-ahmed@mail.grokbot.com">chief-ahmed@mail.grokbot.com</a> with the subject Women's Care — data request. We reply within 30 days. You can also complain to the Personal Data Protection Center (PDPC), Egypt, after contacting us. The <a href="delete-account.html">Delete account</a> page explains the same steps.</p>
       <h2>Data outside Egypt</h2>
       <p>Sign-in is handled by Supabase, which may store the account outside Egypt. If you turn crash reports on, Sentry may process them outside Egypt. If you turn notifications on, Expo may process the push token outside Egypt. Cycle and pregnancy notes are not sent to these services.</p>
-      <h2>Push token</h2>
+      <h2>Notification ID</h2>
       <p>If you turn notifications on, a push token can leave the device so a reminder can be delivered. The token is not your name and it is not your cycle.</p>
       <h2>YouTube, crash reports, and deletion</h2>
       <p>Video titles come from the public channel, and playback opens YouTube. The app does not ask for the camera, microphone, or photo library. Crash reports stay off until you turn them on in Account. Analytics stay off. Delete the account from Account, or from the <a href="delete-account.html">Delete account</a> page.</p>
